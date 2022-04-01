@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to bottom, rgb(207, 45, 207), rgba(105, 6, 105, 0.651), rgba(50, 50, 201, 0.582));
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+
+h1{
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.container{
+    background-color: #e0dfdfa8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 650px;
+    width: 500px;
+    border: 1px solid #dcdcdc;
+    margin-left: 400px;
+
+}
+.container input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    border-radius: 20px;
+    min-width: 300px;
+    height: 35px;
+    border: 1px solid purple;
+    text-align: center;
+    background-image: linear-gradient(to right, rgba(207, 45, 207, 0.288), rgba(105, 6, 105, 0.308), rgba(50, 50, 201, 0.315));
+}
+
+.container input[type="radio"]{
+    height: 15px;
+    display: flex;
+    flex-direction: row;
+}
+
+button{
+    background-color: blueviolet;
+    min-width: 300px;
+    height: 35px;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 1px solid purple;
+    margin: 30px;
+}
+
+button:hover{
+    background-color: rgb(89, 6, 167);
+}
+
+.container a img{
+    height: 30px;
+    display: inline-block;
+}
