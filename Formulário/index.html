@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="iconpizza.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Faça seu pedido!</title>
+</head>
+<body>
+
+    <div>
+        <h1 id="titulo">Faça seu pedido aqui</h1>
+        <p id="subtitulo">A melhor pizza da região!</p>
+        <br>
+    </div>
+
+    <form>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome"><strong>Nome</strong></label>
+                <input type="text" name="nome" required>
+            </div>
+
+            <div class="campo">
+                <label for="sobrenome"><strong>Sobrenome</strong></label>
+                <input type="text" name="sobrenome" required>
+            </div>
+        </fieldset>
+
+        <div class="campo">
+            <label for="telefone"><strong>Telefone</strong></label>
+            <input type="text" name="telefone" required>
+        </div>
+
+        <div class="campo">
+            <label><strong>Qual sua massa favorita?</strong></label>
+            <label>
+                <input type="radio" name="massa" value="massa fina" checked>Massa fina
+            </label>
+            <label>
+                <input type="radio" name="massa" value="massa grossa">Massa grossa
+            </label>
+            <label>
+                <input type="radio" name="massa" value="massa pan">Massa pan
+            </label>
+        </div>
+
+        <div class="campo">
+            <label for="recheio"><strong>Qual recheio combina com a sua fome?</strong></label>
+            <select id="recheio" required>
+                <option selected disabled value="">Selecione</option>
+                <option>3 Queijos</option>
+                <option>Vegetariana</option>
+                <option>Calabresa</option>
+                <option>Marguerita</option>
+            </select>
+        </div>
+
+        <fieldset class="grupo">
+            <div id="check">
+                <label><strong>Selecione uma bebida para acompanhar!</strong></label><br><br>
+                <input type="checkbox" name="bebida1" id="bebida1" value="coca-cola">
+                <label for="bebida1">Coca-cola</label>
+                <input type="checkbox" name="bebida2" value="guaraná">
+                <label for="bebida2">Guaraná</label>
+                <input type="checkbox" name="bebida3" id="bebida3" value="água">
+                <label for="bebida3">Água sem gás</label>
+                <input type="checkbox" name="bebida4" id="bebida4" value="suco natural">
+                <label for="bebida4">Suco natural</label>
+            </div>
+        </fieldset>
+
+        <div class="campo">
+            <br>
+            <label for="observacao"><strong>Alguma observação sobre o pedido?</strong></label>
+            <br>
+            <textarea name="observacao" id="observacao" cols="50" rows="5"></textarea>
+        </div>
+
+        <button class="botao" type="submit" onsubmit="">Pedir >></button>
+    </form>
+</body>
+</html>
