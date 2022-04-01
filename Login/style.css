@@ -8,6 +8,7 @@ body{
     background-image: linear-gradient(to bottom, rgb(207, 45, 207), rgba(105, 6, 105, 0.651), rgba(50, 50, 201, 0.582));
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
+    height: 100vh;
 }
 
 
