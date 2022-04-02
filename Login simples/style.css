@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient( 45deg, #0dccff, #4760ff);
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-color: white;
+    max-width: 400vw;
+    min-height: 40vh;
+    padding: 2rem;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.2);
+    border-radius: 8px;
+}
+
+h2{
+    font-weight: 600;
+    margin-bottom: 2rem;
+    position: relative;
+}
+
+main h2::before{
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 4px;
+    bottom: 3px;
+    left: 0;
+    border-radius: 8px;
+    background-image: linear-gradient( 45deg, #0dccff, #4760ff);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.input-field{
+    position: relative;
+    
+}
+
+
+
+.input-field input:focus ~ underlie::after{
+    transform: scaleX(1);
+}
+
+.input-field input{
+    outline: none;
+    font-size: 1rem;
+    color: rgba(0,0,0,0.7);
+    margin: 5px;
+    background-image:  linear-gradient( 45deg, #0dcbff4d, #475fff77);
+    border-radius: 7px;
+    border: 1px solid #0691b8;
+
+}
+
+.input-field input:hover{
+    border: 1px solid #0691b8;
+   
+}
+
+input-field input::placeholder{
+    color: rgba(0,0,0,0.5);
+}
+
+form input[type="submit"]{
+    margin-top: 2rem;
+    padding: 0.4rem;
+    background-image: linear-gradient( 45deg, #0dccff, #4760ff);
+    color: white;
+    cursor: pointer;
+    border-radius: 7px;
+    font-weight: 300;
+    font-size: 0.9rem;
+    transition: all 0.3s ease;
+    border: 1px solid #0691b8;
+    width: ;
+}
+
+form input[type="submit"]:hover{
+    letter-spacing: 0.5px;
+    background-image: linear-gradient( to right, #0dccff, #4760ff);
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.footer span{
+    color: rgba(0,0,0,0.7);
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.footer .social-field{
+    padding: 0.4rem;
+    border-radius: 7px;
+    font-size: 0.85rem;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+
+
+.foooter .social-field a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer .social-field .social-field-twitter{
+    background-image: linear-gradient( to right, #0aa2cc, #0397d1);
+    padding: 0.4rem;
+    border-radius: 7px;
+    font-size: 0.85rem;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 1rem;
+
+}
+
+.footer .social-field .social-field-facebook{
+    background-image: linear-gradient( to right, #3b5998, #8795f5);
+    padding: 0.4rem;
+    border-radius: 7px;
+    font-size: 0.85rem;
+    width: 100%;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+
+.footer img{
+    height: 20px;
+    margin: 0 0.5rem;
+    width: 15px;
+}
