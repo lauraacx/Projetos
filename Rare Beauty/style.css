@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla&display=swap');
+
+:root{
+    --vinho: rgb(127, 37, 73);
+    --branco: rgb(253, 251, 248);
+    --bege: rgb(253, 246, 240);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Anek Bangla', sans-serif;
+    max-width: 100vw;
+    max-height: 100vh;
+    background-color: var(--branco);
+}
+
+header img{
+    height: 50px;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.search{
+    margin-top: 2rem;
+    margin-right: 3rem;
+}
+
+.header-container header{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header ul li{
+    list-style-type: none;
+    font-weight: bolder;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: var(--vinho);
+}
+
+ul li a:hover{
+    transition: all 0.5s ease-in-out;
+    border: 3px solid rgba(127, 37, 73, 0.555);
+    padding: 0.5rem;
+    background-color: var(--vinho);
+    color: white;
+
+}
+
+.header-container .links ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 5rem;
+    margin-top: 2rem;
+    
+}
+
+hr{
+    margin: 15px;
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: url(imagem1.webp);
+    min-height: 85vh;
+    background-repeat: no-repeat;
+}
+
+
+.aside h1{
+    color: var(--vinho);
+
+}
+
+.aside{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 50rem;
+    margin-bottom: 5rem;
+    background-color: var(--bege);
+    color: black;
+    min-height: 100%;
+}
+
+button{
+    background-color: var(--vinho);
+    color: var(--branco);
+    cursor: pointer;
+    height: 2rem;
+    width: 13rem;
+    border-radius: 15px;
+    margin: 10rem;
+    margin-top: 5rem;
+}
+
+button:hover{
+    background-color: rgba(127, 37, 73, 0.555);
+    transition: all 0.5s ease;
+}
+
+.products{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5rem;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin: 2rem;
+}
+
+.best{
+    color: var(--vinho);
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 2rem;
+}
+
+.aside2{
+    background-color: var(--bege);
+    height: 150px;
+}
+
+.aside2 h1{
+    color: var(--vinho);
+    text-align: center;
+    font-size: 2rem;
+}
+
+.aside2 p{
+    text-align: center;
+
+}
+
+.article{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin: 5rem;
+    border: 2px solid --vinho;
+}
+
+article img{
+    margin: 5rem;
+}
+
+.imagemsel{
+    display: flex;
+    height: 50rem;
+    background-color: var(--bege);
+}
+
+footer h1{
+    font-size: 2rem;
+    color: var(--vinho);
+    text-align: center;
+    margin-bottom: 3rem;
+}    
+
+.footer p{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 29rem;
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+.footer input{
+    width: 25rem;
+    height: 1.5rem;
+    border-radius: 8px;
+    border: 1px solid var(--vinho);
+    margin: 0.9rem;
+}
+
+.footer input[type="button"]{
+    background-color: var(--vinho);
+    color: white;
+    width: 25rem;
+    cursor: pointer;
+}
+
+.footer input[type="button"]:hover{
+    background-color: rgba(127, 37, 73, 0.555);
+    transition: all 0.5s ease;
+
+}
+
+footer{
+    background-color: var(--bege);
+    text-align: center;
+}
