@@ -35,10 +35,8 @@ body{
     height: 20rem;
     margin: 1rem;
     border-radius: 13px;
-    opacity: 1;
     cursor: pointer;
 }
-
 
 .container h1{
     color: var(--cyan);
@@ -66,7 +64,6 @@ body{
     display: flex;
     justify-content: space-between;
     margin-bottom: 1rem;
-
 }
 
 hr{
