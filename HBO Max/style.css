@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+:root{
+    --darkblue: rgb(2, 2, 28);
+    --blue: rgb(3, 3, 40);
+    --purple: rgb(181, 53, 246);
+    --purple2: rgb(132, 19, 237);
+    --purple3: rgb(182, 8, 241);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: linear-gradient( to bottom, black, rgb(3, 3, 40));
+    font-family: 'Dosis', sans-serif;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    height: 4rem;
+    background-color: var(--darkblue);
+    position: sticky;
+}
+
+header .container .logo img{
+    width: 10rem;
+    margin: 1rem;
+
+}
+
+header .container .menu{
+    display: flex;
+    margin: 1rem;
+    justify-content: space-around;
+    font-weight: 600;
+    font-size: 100%;
+    margin-top: 1rem;
+}
+
+header .container .menu button{
+    background-color: var(--purple);
+    color: white;
+    font-weight: 600;
+    height: 2.4rem;
+    font-size: 100%;
+    width: 11rem;
+    border-radius: 25px;
+    margin-left: 2.5rem;
+    cursor: pointer;
+    border: 1px solid rgb(132, 19, 237);
+}
+
+header .container .menu button:hover{
+    background-image: linear-gradient(to right, rgb(182, 8, 241), rgb(181, 53, 246), rgb(132, 19, 237));
+    transition: all 0.5s ease-in;
+}
+
+header .menu ul li{
+    list-style-type: none;
+}
+
+header .menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+header .menu ul li a:hover{
+    color: var(--purple);
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+}
+
+main .container-main{
+    margin: 10rem;
+    margin-top: 13rem;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+main .container-main h1{
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+}
+
+hr{
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, rgb(181, 53, 246), rgb(182, 8, 241), transparent);  
+}
+
+main .container-main h2{
+    margin: 1rem;
+    font-size: 2rem;
+}
+
+main .container-main p{
+    margin: 1rem;
+}
+
+
+main .container-main button{
+    background-color: var(--purple);
+    color: white;
+    border-radius: 20px;
+    height: 2.5rem;
+    width: 11rem;
+    border: 1px solid rgb(182, 8, 241);
+    font-weight: 700;
+    align-self: center;
+    margin: 2rem;
+    margin-bottom: 0;
+}
+
+main .container-main button:hover{
+    cursor: pointer;
+    background-image: linear-gradient(to right, rgb(182, 8, 241), rgb(132, 19, 237));
+    transition: all 0.5s ease-in-out;
+}
