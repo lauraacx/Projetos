@@ -44,7 +44,7 @@ hr{
 }
 
 .showcase img{
-    width: 100%;
+    width: 100vw;
     margin: 0;
 }
 
@@ -212,3 +212,61 @@ form button:hover{
     margin: o.5rem;
     margin-right: 5rem;
 }
+
+/*responsividade*/
+
+@media (max-width: 1200px){
+    header .logo-menu{
+        display: block;
+    }
+
+    .logo-menu .logo a img{
+        height: 4rem;
+        margin-left: 1rem;
+    }
+
+    .logo-menu .icones{
+        height: 2rem;
+        margin-bottom: 2rem;
+        margin-left: 4rem;
+        margin: 0.5rem;
+    }
+
+    hr{
+        margin: 2.5rem;
+    }
+
+    .categorias .cat-icon{
+       display: block;
+       width: 350px;
+       margin: 0 auto;
+   }
+
+   .categorias .cat-icon a img{
+       height: 5rem;
+       width: 5rem;
+       margin-left: 4rem;
+   }
+
+   .products{
+       display: block;
+       margin: 2rem;
+   }
+
+   .comfy .comfy-products{
+       display: block;
+       margin: 2rem;
+       margin-bottom: 0;
+   }
+
+   .form form{
+       margin: 0;
+   }
+
+   .form input{
+       margin-left: 1rem;
+       width: 15rem;
+   }
+}    
+
+    
