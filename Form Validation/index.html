@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <h1>Create Account</h1>
+        </div>
+
+        <div class="form">
+            <form>
+                <label for="username">Username</label>
+                <input type="text" name="username" id="user" onkeyup="validateName()"></label>
+                <span id="name-error"></span>
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email">
+                <span id="email-error"></span>
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password">
+                <span id="password-error"></span>
+                <label for="password-check">Password check</label>
+                <input type="password" name="password" id="password-check">
+                <span id="password-check-error"></span>
+                <input type="submit" name="submit" id="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

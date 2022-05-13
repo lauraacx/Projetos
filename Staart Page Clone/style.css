@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+
+:root{
+    --darkblue: #040220;
+    --blue: #0c0b3d;
+    --lightblue: #6b61f5;
+    --purple: #32112c;
+    --grey: #5f5e76;
+    --fontfamily: 'DM Sans', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--darkblue);
+    font-family: var(--fontfamily);
+    font-weight: bold;
+}
+
+.container{
+    background-image: linear-gradient(220deg, #6b61f5, #0c0b3d 20%, #32112c);
+    height: 100%;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.container .logo img{
+    margin-left: 200px;
+    cursor: pointer;
+}
+
+.container img{
+    height: 170px;
+}
+
+.container h1{
+    color: white;
+    text-align: center;
+    margin: 10px;
+    font-size: 26px;
+}
+
+.container .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container form input{
+    background-color: rgb(232, 240, 254);
+    height: 40px;
+    width: 320px;
+    border-radius: 5px;
+    display: flex;
+    margin: 20px;
+    border: 0;
+}
+
+.container form input:hover{
+    border: 0;
+}
+
+.container form input::placeholder{
+    font-size: 10px;
+    font-weight: 700;
+    color: var(--grey);
+    position: absolute;
+}
+
+.container form input:focus{
+    border: 0;
+}
+
+
+.container p{
+    color: white;
+    text-align: center;
+    cursor: pointer;
+}
+
+.container p:hover{
+    color: var(--lightblue);
+    transition: 0.5s;
+}
+
+.container p img{
+    height: 12px;
+    margin-right: 5px;
+    filter: invert(100%);
+}
+
+
+.container button{
+    background-color: var(--lightblue);
+    color: white;
+    height: 40px;
+    width: 320px;
+    border-radius: 5px;
+    margin: 20px;
+    border: 0;
+    cursor: pointer;
+}
+
+.container button:hover{
+    background-color: #9b95f3;
+    transition: 0.5s;
+}
+
+.eye{
+    position: absolute;
+
+}
+
+#hide1{
+    display: none;
+}

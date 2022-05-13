@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #00704A;
+    height: 100vh;
+    width: 100vw;
+    font-family: 'Raleway', sans-serif;
+}
+
+.header a img{
+    height: 3rem;
+    margin: 1rem;
+}
+
+.website-container{
+    margin: 0 15rem;
+    background-color: white;
+    min-height: 100vh;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+
+.header-container{
+    background-color: rgba(211, 211, 211, 0.103);
+    height: 5.5rem;
+} 
+
+.website-container .header-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-container .menu ul{
+    display: flex;
+    margin-top: 2rem;
+}
+
+.header-container .menu ul li{
+    list-style-type: none;
+    margin: 1rem;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-weight: 700;
+    display: flex;
+    color: black;
+}
+
+.header-container .menu ul li a:hover{
+    color: #00704A;
+    transition: 0.3s;
+}
+
+.header-container .menu-items{
+    display: flex;
+    flex-direction: column;
+}
+
+.header-container .menu-items a{
+    text-decoration: none;
+    color: #00704A;
+    margin-right: 0.5rem;
+}
+
+.header-container .menu-items a img{
+    height: 1rem;
+    margin: 0.2rem;
+}
+
+.banner-container{
+    background-color: #036635;
+    height: 80vh;
+    display: flex;
+    border-radius: 5px;
+}
+
+.banner-container .image img{
+    margin: 7rem;
+    height: 230px;
+    border-radius: 60%;
+}
+
+.banner-container .content{
+    margin-top: 3rem;
+    font-size: 1.5rem;
+}
+
+.banner-container .content h1{
+    color: white;
+    font-family: 'Rock Salt', cursive;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-right: 5rem;
+}
+
+.banner-container .content button{
+    margin: 2rem;
+    width: 8rem;
+    height: 1.7rem;
+    background-color: #00704b;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.banner-container .content button:hover{
+    background-color: #0c583f;
+    width: 9rem;
+    height: 2rem;
+    transition: all 0.5s;
+}
+
+main h2{
+    text-align: center;
+    font-weight: 800;
+    color: #0c583f;
+    margin: 2rem;
+}
+
+main .products{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+main .products p{
+    text-align: center;
+    color: black;
+    cursor: pointer;
+    margin-right: 3rem;
+}
+
+main .products img{
+    height: 250px;
+    cursor: pointer;
+    margin: 3rem;
+    margin-bottom: 0;
+}
+
+main .products .product2 img{
+    height: 250px;
+}
+
+.website-container section .section{
+    display: flex;
+    margin-top: 3rem;
+    margin: 2rem;
+}
+
+
+.website-container section .section h3{
+    color: #00704A;
+    margin-top: 100px;
+}
+
+.website-container section .section .order-online{
+    background-color: rgba(211, 211, 211, 0.185);
+    height: 15rem;
+    width: 20rem;
+    margin: 3rem;
+    border: 0;
+    box-shadow: 2px 2px 2px #0c583f;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.website-container section .section .discover-drink{
+    background-color: rgba(211, 211, 211, 0.185);
+    height: 15rem;
+    width: 20rem;
+    margin: 3rem;
+    border: 0;
+    box-shadow: 2px 2px 2px #0c583f;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+} 
+
+.website-container .footer{
+    display: flex;
+    font-size: 0.95rem;
+    margin: 2rem;
+
+}
+
+.website-container .footer h4{
+    color: #0c583f;
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+
+.website-container .footer ul li{
+    list-style-type: none;
+    cursor: pointer;
+}
