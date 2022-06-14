@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Julius+Sans+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(leaves.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Dosis', sans-serif;
+}
+
+.container{
+    margin: 4rem auto;
+    background-color: rgba(196, 196, 196, 0.623);
+    border-radius: 5px;
+    color: #fafafa;
+    height: 80%;
+    width: 80%;
+    text-align: center;
+}
+
+.container .header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container .header h1{
+    font-size: 2rem;
+    margin: 1rem;
+    cursor: pointer;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.container .header .menu ul{
+    display: flex;
+    justify-content: space-around;
+    font-size: 1.2rem;
+}
+
+.container .header ul li{
+    list-style-type: none;
+    margin: 1.5rem;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.container .header ul li:hover{
+    color: rgb(50, 92, 50);
+    transition: 0.3s;
+}
+
+.container .main{
+    display: flex;
+}
+
+.container .main .content{
+    margin-top: 5rem;
+    margin-left: 1rem;
+}
+
+.container .main .content h1{
+    font-size: 3.5rem;
+    font-family: 'Julius Sans One', sans-serif;
+    margin: 0.5rem;
+}
+
+.container .main .content p{
+    margin: 2rem;
+    font-size: 1.3rem;
+}
+
+.container .main .content p strong{
+    color: rgb(50, 92, 50);
+    cursor: pointer;
+}
+
+.container .main .content button{
+    height: 25px;
+    width: 125px;
+    border-radius: 3px;
+    border: 0;
+    color: #fafafa;
+    background-color: rgb(50, 92, 50);
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.container .main .content button:hover{
+    background-color: rgba(50, 92, 50, 0.692);
+    transition: 0.3s;
+}
+
+.container .main .image img{
+    height: 430px;
+    position: absolute;
+    right: 2rem;
+}
